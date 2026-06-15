@@ -20,7 +20,7 @@ int main(){
     cout << "Enter the number of nodes: ";
     cin >> n;
     vector<int> values(n);
-    cout << "Enter the values of the nodes: ";
+    cout << "Enter the nodes: ";
     for(int i = 0; i < n; i++){
         cin >> values[i];
     }
