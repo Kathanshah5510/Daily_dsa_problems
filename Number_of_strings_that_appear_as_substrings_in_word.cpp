@@ -16,7 +16,8 @@ int main(){
 
     int count = 0;
     for(int i = 0; i < n; i++){
-        if(s.find(substrings[i]) != string::npos){
+        // if(s.find(substrings[i]) != string::npos){
+        if(s.find(substrings[i]) != -1){
             count++;
         }
     }
